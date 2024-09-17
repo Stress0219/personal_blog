@@ -7,7 +7,7 @@ import Linear from '@/components/Linear'
 
 export default function Home() {
   return (
-    <div className="h-screen w-full">
+    <div>
       <Navbar/>
       <Linear/>
       <Banner/>

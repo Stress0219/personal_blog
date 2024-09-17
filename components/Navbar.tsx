@@ -40,7 +40,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="fixed" className="bg-blue-800" sx={{backgroundColor:'rgb(30 64 175)'}}>
+    <AppBar position='relative' className="bg-blue-800" sx={{backgroundColor:'rgb(30 64 175)'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <a href="#">
