@@ -14,7 +14,6 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
 import logo from '../public/Joan-Dev.png';
-
 const pages = ['Registro', 'Acerca de', 'Reciente'];
 const settings = ['Perfil', 'Cuenta', 'Dashboard', 'Logout'];
 
@@ -40,7 +39,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position='relative' className="bg-blue-800" sx={{backgroundColor:'rgb(30 64 175)'}}>
+    <AppBar position='relative' className="bg-[#2b4fc7]" sx={{backgroundColor:'#2b4fc7'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <a href="#">
@@ -123,7 +122,7 @@ function Navbar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block',bgcolor:"darkgray", mr: 2 }}
+                className='btn-grad'
               >
                 {page}
               </Button>
@@ -162,7 +161,7 @@ function Navbar() {
               </Menu>
             </Box>
           ) : (
-            <Button color="inherit" onClick={() => setIsLoggedIn(true)}>
+            <Button className='bg-[#D4AF37] px-3 py-2' onClick={() => setIsLoggedIn(true)}>
               Login
             </Button>
           )}

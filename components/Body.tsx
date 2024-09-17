@@ -51,7 +51,7 @@ const Body = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" className="font-bold hover:bg-zinc-800">
+              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
                 Share
               </Button>
             </CardActions>
@@ -83,7 +83,7 @@ const Body = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" className="font-bold hover:bg-zinc-800">
+              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
                 Share
               </Button>
             </CardActions>
@@ -115,7 +115,7 @@ const Body = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" className="font-bold hover:bg-zinc-800">
+              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
                 Share
               </Button>
             </CardActions>
@@ -147,7 +147,7 @@ const Body = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" className="font-bold hover:bg-zinc-800">
+              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
                 Share
               </Button>
             </CardActions>
