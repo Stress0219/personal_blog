@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import banner from "../public/banner.jpg";
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 const Banner = () => {
   return (
@@ -29,8 +30,8 @@ const Banner = () => {
               </h1>
             </div>
             <div className=" invisible md:visible md:flex md:justify-center md:items-center">
-              <button className="p-4 font-bold text-2xl bg-blue-700 rounded-xl hover:bg-blue-600 animate-bounce">
-                <a href="#destacados">SSSS</a>
+              <button className="p-6 font-bold text-2xl bg-blue-700 rounded-full hover:bg-blue-600 animate-bounce">
+                <a href="#destacados" className="rounded-full"><ArrowCircleDownIcon fontSize="large"/></a>
               </button>
             </div>
           </div>
