@@ -30,7 +30,7 @@ const Banner = () => {
               </h1>
             </div>
             <div className="invisible md:visible md:flex md:justify-center md:items-center">
-              <button className="p-6 font-bold text-2xl rounded-full animate-bounce btn-grad-rounded">
+              <button className="p-6 font-bold text-2xl rounded-full animate-bounce bg-[#084bc0]">
                 <a href="#destacados" className="rounded-full"><ArrowCircleDownIcon fontSize="large"/></a>
               </button>
             </div>

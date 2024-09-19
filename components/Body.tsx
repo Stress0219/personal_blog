@@ -1,11 +1,5 @@
 import React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import CardActionArea from "@mui/material/CardActionArea";
-import CardActions from "@mui/material/CardActions";
+import Cards from "@/components/Cards";
 
 const Body = () => {
   return (
@@ -24,134 +18,10 @@ const Body = () => {
           encuentra la inspiración que necesitas!
         </article>
         <div className="grid grid-cols-3 gap-y-6">
-          <Card
-            sx={{
-              maxWidth: 345,
-              marginBottom: 2,
-              backgroundColor: "rgb(63 63 70)",
-            }}
-            className="card bg-zinc-700 p-2 m-auto"
-          >
-            <CardActionArea className="hover:bg-zinc-600 hover:transition-all hover:ease-in">
-              <CardMedia
-                component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Mamerto
-                </Typography>
-                <Typography variant="body2" className="text-white">
-                  Mamertos are a widespread group of squamate reptiles, with
-                  over 6,000 species, ranging across all continents except
-                  Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
-                Share
-              </Button>
-            </CardActions>
-          </Card>
-          <Card
-            sx={{
-              maxWidth: 345,
-              marginBottom: 2,
-              backgroundColor: "rgb(63 63 70)",
-            }}
-            className="bg-zinc-700 p-2 m-auto"
-          >
-            <CardActionArea className="hover:bg-zinc-600 hover:transition-all hover:ease-in">
-              <CardMedia
-                component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Mamerto
-                </Typography>
-                <Typography variant="body2" className="text-white">
-                  Mamertos are a widespread group of squamate reptiles, with
-                  over 6,000 species, ranging across all continents except
-                  Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
-                Share
-              </Button>
-            </CardActions>
-          </Card>
-          <Card
-            sx={{
-              maxWidth: 345,
-              marginBottom: 2,
-              backgroundColor: "rgb(63 63 70)",
-            }}
-            className="bg-zinc-700 p-2 m-auto"
-          >
-            <CardActionArea className="hover:bg-zinc-600 hover:transition-all hover:ease-in">
-              <CardMedia
-                component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Mamerto
-                </Typography>
-                <Typography variant="body2" className="text-white">
-                  Mamertos are a widespread group of squamate reptiles, with
-                  over 6,000 species, ranging across all continents except
-                  Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
-                Share
-              </Button>
-            </CardActions>
-          </Card>
-          <Card
-            sx={{
-              maxWidth: 345,
-              marginBottom: 2,
-              backgroundColor: "rgb(63 63 70)",
-            }}
-            className="bg-zinc-700 p-2 m-auto"
-          >
-            <CardActionArea className="hover:bg-zinc-600 hover:transition-all hover:ease-in">
-              <CardMedia
-                component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Mamerto
-                </Typography>
-                <Typography variant="body2" className="text-white">
-                  Mamertos are a widespread group of squamate reptiles, with
-                  over 6,000 species, ranging across all continents except
-                  Antarctica
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" className="font-bold hover:bg-[#D4AF37]">
-                Share
-              </Button>
-            </CardActions>
-          </Card>
+          <Cards></Cards>
+          <Cards></Cards>
+          <Cards></Cards>
+          <Cards></Cards>
         </div>
       </div>
     </div>

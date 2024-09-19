@@ -5,14 +5,15 @@ import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import Linear from '@/components/Linear'
 
+
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <Linear/>
+      <Navbar/>
       <Banner/>
       <Body/>
-      <Footer/>
+      <Footer/>   
     </div>
   );
 }

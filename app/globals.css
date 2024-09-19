@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
+* {
   scroll-behavior: smooth;
 }
 :root {
@@ -32,46 +32,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-         
-  .btn-grad-rounded {
-    background-image: linear-gradient(to right, #D4AF37 0%, #d4b038   51%, #D4AF37  100%);
-    margin: 10px;
-    padding: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 10px #eee;
-    border-radius: 9999px;
-    display: block;
+  .bounce-in {
+    animation: bounce-in 2s ease;
   }
-
-  .btn-grad-rounded:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
-
-           
-         .btn-grad {
-            background-image:linear-gradient(to right, #D4AF37  0%, #dec369  51%, #D4AF37  100%);
-            margin: 10px;
-            padding: 10px 25px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            border-radius: 10px;
-            display: block;
-          }
-
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-         
- 
 }
